@@ -1,0 +1,75 @@
+---
+---
+@import "chota";
+
+:root {
+  --font-family-sans: 'Inter', -apple-system, "BlinkMacSystemFont", "Avenir",
+    "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+.main-title {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: xx-large;
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .1s ease-in;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(var(--color-primary), var(--color-primary));
+}
+
+.link-underline:hover {
+  background-size: 100% 20px;
+  background-position: 0 100%;
+  color: white;
+}
+
+.mid-section-home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  margin: auto;
+}
+
+.navigation {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.social-icons {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.mid-section-cover {
+  padding: 2em;
+}
+.policy-section {
+  padding: 2em;
+}
+

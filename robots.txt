@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /projects/agecalc-terms-and-conditions
+Disallow: /projects/agecalc-privacy-policy
+Disallow: /projects/agecalc-disclaimer
+Allow: /
